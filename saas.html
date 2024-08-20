@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html>
+  <style>
+    body,
+    div.header {
+      display: grid;
+      grid-template-columns: repeat(6, 1fr);
+      grid-auto-rows: min-content;
+      justify-items: center;
+      align-items: start;
+      margin: 0;
+      padding: 0;
+      gap: 0;
+    }
+
+    div.header {
+      position: fixed;
+      width: 100%;
+      background-color: white;
+      z-index: 9999;
+    }
+
+    div.header div {
+      padding: 2px;
+      font-family: sans-serif;
+    }
+
+    img {
+      width: 100%;
+      height: 400px;
+      object-fit: cover;
+    }
+
+    div.clipper {
+      margin-bottom: -4px;
+      overflow: hidden;
+    }
+  </style>
+  <body>
+    <div class="header">
+      <div>original</div>
+      <div>slazzer</div>
+      <div>removebg</div>
+      <div>cutoutpro</div>
+      <div>photoroom</div>
+      <div>removal.ai</div>
+    </div>
+
+    <div class="clipper original">
+      <img src="./originals/messybg.jpg" />
+    </div>
+    <div class="clipper">
+      <img src="./slazzer/messybg_prev_ui.png" />
+    </div>
+    <div class="clipper">
+      <img src="./removebg/messybg-removebg-preview.png" />
+    </div>
+    <div class="clipper">
+      <img src="./cutoutpro/messybg.png" />
+    </div>
+    <div class="clipper">
+      <img src="./photoroom/messybg-Photoroom.jpg" />
+    </div>
+    <div class="clipper">
+      <img src="./removalai/[removal.ai]-messybg.png" />
+    </div>
+
+    <div class="clipper original">
+      <img src="./originals/partlyobscured.jpg" />
+    </div>
+    <div class="clipper">
+      <img src="./slazzer/partlyobscured_prev_ui.png" />
+    </div>
+    <div class="clipper">
+      <img src="./removebg/partlyobscured-removebg-preview.png" />
+    </div>
+    <div class="clipper">
+      <img src="./cutoutpro/partlyobscured.png" />
+    </div>
+    <div class="clipper">
+      <img src="./photoroom/partlyobscured-Photoroom.jpg" />
+    </div>
+    <div class="clipper">
+      <img src="./removalai/[removal.ai]-partlyobscured.png" />
+    </div>
+
+    <div class="clipper original">
+      <img src="./originals/darkbg.jpg" />
+    </div>
+    <div class="clipper">
+      <img src="./slazzer/darkbg_prev_ui.png" />
+    </div>
+    <div class="clipper">
+      <img src="./removebg/darkbg-removebg-preview.png" />
+    </div>
+    <div class="clipper">
+      <img src="./cutoutpro/darkbg.png" />
+    </div>
+    <div class="clipper">
+      <img src="./photoroom/darkbg-Photoroom.jpg" />
+    </div>
+    <div class="clipper">
+      <img src="./removalai/[removal.ai]-darkbg.png" />
+    </div>
+
+    <div class="clipper original">
+      <img src="./originals/greenindistinct.jpg" />
+    </div>
+    <div class="clipper">
+      <img src="./slazzer/greenindistinct_prev_ui.png" />
+    </div>
+    <div class="clipper">
+      <img src="./removebg/greenindistinct-removebg-preview.png" />
+    </div>
+    <div class="clipper">
+      <img src="./cutoutpro/greenindistinct.png" />
+    </div>
+    <div class="clipper">
+      <img src="./photoroom/greenindistinct-Photoroom.jpg" />
+    </div>
+    <div class="clipper">
+      <img src="./removalai/[removal.ai]-greenindistinct.png" />
+    </div>
+
+    <div class="clipper original">
+      <img src="./originals/hair.jpg" />
+    </div>
+    <div class="clipper">
+      <img src="./slazzer/hair_prev_ui.png" />
+    </div>
+    <div class="clipper">
+      <img src="./removebg/hair-removebg-preview.png" />
+    </div>
+    <div class="clipper">
+      <img src="./cutoutpro/hair.png" />
+    </div>
+    <div class="clipper">
+      <img src="./photoroom/hair-Photoroom.jpg" />
+    </div>
+    <div class="clipper">
+      <img src="./removalai/[removal.ai]-hair.png" />
+    </div>
+
+    <div class="clipper original">
+      <img src="./originals/incity.jpg" />
+    </div>
+    <div class="clipper">
+      <img src="./slazzer/incity_prev_ui.png" />
+    </div>
+    <div class="clipper">
+      <img src="./removebg/incity-removebg-preview.png" />
+    </div>
+    <div class="clipper">
+      <img src="./cutoutpro/incity.png" />
+    </div>
+    <div class="clipper">
+      <img src="./photoroom/incity-Photoroom.jpg" />
+    </div>
+    <div class="clipper">
+      <img src="./removalai/[removal.ai]-incity.png" />
+    </div>
+
+    <div class="clipper original">
+      <img src="./originals/peopleoutside.jpg" />
+    </div>
+    <div class="clipper">
+      <img src="./slazzer/peopleoutside_prev_ui.png" />
+    </div>
+    <div class="clipper">
+      <img src="./removebg/peopleoutside-removebg-preview.png" />
+    </div>
+    <div class="clipper">
+      <img src="./cutoutpro/peopleoutside.png" />
+    </div>
+    <div class="clipper">
+      <img src="./photoroom/peopleoutside-Photoroom.jpg" />
+    </div>
+    <div class="clipper">
+      <img src="./removalai/[removal.ai]-peopleoutside.png" />
+    </div>
+
+    <div class="clipper original">
+      <img src="./originals/redbottles.jpg" />
+    </div>
+    <div class="clipper">
+      <img src="./slazzer/redbottles_prev_ui.png" />
+    </div>
+    <div class="clipper">
+      <img src="./removebg/redbottles-removebg-preview.png" />
+    </div>
+    <div class="clipper">
+      <img src="./cutoutpro/redbottles.png" />
+    </div>
+    <div class="clipper">
+      <img src="./photoroom/redbottles-Photoroom.jpg" />
+    </div>
+    <div class="clipper">
+      <img src="./removalai/[removal.ai]-redbottles.png" />
+    </div>
+
+    <div class="clipper original">
+      <img src="./originals/whitebg.jpg" />
+    </div>
+    <div class="clipper">
+      <img src="./slazzer/whitebg_prev_ui.png" />
+    </div>
+    <div class="clipper">
+      <img src="./removebg/whitebg-removebg-preview.png" />
+    </div>
+    <div class="clipper">
+      <img src="./cutoutpro/whitebg.png" />
+    </div>
+    <div class="clipper">
+      <img src="./photoroom/whitebg-Photoroom.jpg" />
+    </div>
+    <div class="clipper">
+      <img src="./removalai/[removal.ai]-whitebg.png" />
+    </div>
+  </body>
+  <script>
+    (() => {
+      document
+        .querySelectorAll(".clipper.original")
+        .forEach(function (clipper) {
+          let scale = 3;
+          const imgs = [clipper.querySelector("img")];
+          let sibling = clipper.nextElementSibling;
+          while (!sibling.classList.contains("original")) {
+            imgs.push(sibling.querySelector("img"));
+            sibling = sibling.nextElementSibling;
+          }
+
+          clipper.addEventListener("mousemove", function (e) {
+            imgs.forEach(function (img) {
+              const rect = clipper.getBoundingClientRect();
+              const x = ((e.clientX - rect.left) / rect.width) * 100;
+              const y = ((e.clientY - rect.top) / rect.height) * 100;
+
+              img.style.transformOrigin = `${x}% ${y}%`;
+              img.style.transform = `scale(${scale})`;
+            });
+          });
+
+          clipper.addEventListener("mouseleave", function () {
+            imgs.forEach(function (img) {
+              img.style.transform = "scale(1)";
+              img.style.transformOrigin = "center center";
+            });
+          });
+
+          clipper.addEventListener("wheel", function (e) {
+            e.preventDefault();
+            if (e.deltaY < 0) {
+              scale = Math.min(10, scale + 0.1);
+            } else {
+              scale = Math.max(2, scale - 0.1);
+            }
+
+            imgs.forEach(function (img) {
+              img.style.transform = `scale(${scale})`;
+            });
+          });
+        });
+    })();
+  </script>
+</html>
